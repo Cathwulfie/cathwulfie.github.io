@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joanna's Blog</title>
+    <title>Joanna's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to Joanna's Blog</h1>
+            <img src="placeholder.jpg" alt="Profile Picture">
+            <h1>Joanna's Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,31 +23,35 @@
 
     <main>
         <div class="container">
-            <section class="intro">
-                <h2>About This Blog</h2>
-                <p>This is my first repository after a major cleanup. It was previously cluttered with various university projects.</p>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Introduce yourself briefly here.</p>
             </section>
 
-            <section class="latest-posts">
-                <h2>Latest Posts</h2>
-                <article>
-                    <h3>Post Title 1</h3>
-                    <p>Summary of the first blog post...</p>
-                    <a href="#">Read more</a>
-                </article>
-                <article>
-                    <h3>Post Title 2</h3>
-                    <p>Summary of the second blog post...</p>
-                    <a href="#">Read more</a>
-                </article>
-                <!-- Add more articles as needed -->
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="table-of-contents">
+                    <ul>
+                        <li><a href="#project1">Project 1</a></li>
+                        <li><a href="#project2">Project 2</a></li>
+                        <!-- Add more projects as needed -->
+                    </ul>
+                </div>
+                <div class="project-content">
+                    <!-- Content will be fetched dynamically based on selection -->
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Include your contact information and a contact form if applicable.</p>
             </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Joanna's Blog. All rights reserved.</p>
+            <p>&copy; 2024 Joanna's Portfolio. All rights reserved.</p>
         </div>
     </footer>
 </body>
