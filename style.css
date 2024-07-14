@@ -1,4 +1,9 @@
 /* style.css */
+body {
+    padding: 10px;
+    background-color: #fff; /* Optional: Set the background color to white */
+}
+
 
 .profile-pic {
     width: 100px; /* Adjust size as needed */
