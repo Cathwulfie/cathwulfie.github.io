@@ -1,29 +1,19 @@
 /* style.css */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+.profile-pic {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fills the circle without stretching */
+    border: 2px solid #fff; /* Optional: Adds a white border around the circle */
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
+/* Additional styling for header and navigation */
 header {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-header img {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
-    border-radius: 50%; /* Creates a circular shape */
 }
 
 header h1 {
@@ -45,18 +35,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Container and layout styles */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 main {
     padding: 20px 0;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
 }
 
 footer {
